@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+
+<html lang="en-GB">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' id='main-css'  href='tln.css' />
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' id='jquery-core-js'></script>
+
+<link rel='stylesheet' id='plyr-css'  href='plyr.css' type='text/css' media='all' />
+
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.2/plyr.polyfilled.min.js' id='plyr-js'></script>
+<script type='text/javascript' id='videoplayer-js-extra'>
+/* <![CDATA[ */
+var iconUrl = "https:\/\/cdn.plyr.io\/3.7.2\/plyr.svg";
+var blankVideo = "https:\/\/www.xxxx.com\/blank.mp4";
+/* ]]> */
+</script>
+<script type='text/javascript' src='video-player.js' id='videoplayer-js'></script>
+<style>
+    body{
+        margin: 0; /* Remove default margin */
+    }
+    iframe{      
+        display: block;  /* iframes are inline by default */   
+        width: 100vw;  /* Set width to 100% of the viewport width */     
+        border: none; /* Remove default border */
+
+    }
+    span.back_text {
+color: #fff;
+position: absolute;
+left: 0;
+right: 0;
+text-align: center;
+margin-top: 15%;
+
+}
+</style>
+ 
+</head>
+
+<body>
+    
+
+ <div class="video-player">
+
+<div class="video">
+<span class="back_text">影片載入中，請耐心等候</span>
+<script>
+var videos = [
+    '846566518'
+];
+
+var index=Math.floor(Math.random() * videos.length);
+var html='<iframe title="" width="100%" height="800" src="https://player.vimeo.com/video/' + videos[index] + '?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen="" allowtransparency="" allow="autoplay"></iframe>';
+document.write(html);
+</script></div>
+</div>
+    
+
+
+</body>
+</html>
