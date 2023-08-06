@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Popup with Content</title>
+<style>
+  /* 在這裡添加您的 CSS 樣式 */
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    max-width: 95%;
+  }
+</style>
+</head>
+<body>
+  <div class="class00">
+    <a href="#">點我前往</a>
+  </div>
+
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <div class="class01">
+        這是 class01 的內容
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function isFacebookApp() {
+        return navigator.userAgent.match(/FBAN|FBAV/i);
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var container = document.querySelector(".class00");
+        var link = container.querySelector("a");
+
+        var popup = document.getElementById("popup");
+        var popupContent = popup.querySelector(".popup-content");
+
+        link.addEventListener("click", function(event) {
+            event.preventDefault();
+            if (isFacebookApp()) {
+                window.location.href = "https://youtube.com";
+            } else {
+                
+                 popupContent.innerHTML = '<div class="class01">我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我</BR></BR></div>';
+                popup.style.display = "flex";
+            }
+        });
+
+        // 關閉彈窗
+        popup.addEventListener("click", function(event) {
+            if (event.target === popup) {
+                popup.style.display = "none";
+            }
+        });
+    });
+  </script>
+</body>
+</html>
