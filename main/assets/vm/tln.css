@@ -1,0 +1,115 @@
+.video-player{
+	margin: 0rem 0;
+    position: relative; z-index: 0;
+	overflow: hidden;
+}
+
+.video-player:before{
+    content: "";
+    display: block;
+    padding-bottom: 56.25%;
+    background-color: #111111;
+}
+
+.video-player .video,
+.video-player .plyr,
+.video-player iframe{
+    position: absolute; top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-player .plyr__poster{
+	background-size: cover;
+}
+
+.video-player .plyr--video.plyr--paused .plyr__control--overlaid,
+.video-player .plyr--video.plyr--stopped .plyr__controls{
+    visibility: hidden;
+	opacity:0;
+}
+
+.video-player .plyr--video.plyr--stopped .plyr__control--overlaid{
+    visibility: visible;
+	opacity:1;
+}
+
+.video-player .plyr--video .plyr__control--overlaid{
+	background-color: #978668;
+	color: #ffffff;
+    transform: translate(-50%,-50%) scale(1.5);
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .video-player .plyr--video .plyr__control--overlaid{
+    transform: translate(-50%,-50%) scale(1);
+
+}
+}
+
+
+.video-player .plyr--video .plyr__control--overlaid.plyr__tab-focus,
+.video-player .plyr--video .plyr__control--overlaid:hover,
+.video-player .plyr--video .plyr__control--overlaid[aria-expanded=true]{
+    background-color: #71644e;
+	color: #ffffff;
+    box-shadow: none;
+}
+
+.video-player .plyr--video .plyr__controls .plyr__control.plyr__tab-focus,
+.video-player .plyr--video .plyr__controls .plyr__control:hover,
+.video-player .plyr--video .plyr__controls .plyr__control[aria-expanded=true]{
+	background-color: #978668;
+    box-shadow: none;
+}
+
+.plyr__control--overlaid {
+    animation: btn1 2s infinite;
+    padding: 25px !important;
+
+}
+.plyr__control--overlaid svg {
+    height: 22px !important;;
+    width: 22px !important;;
+}
+@keyframes btn1{
+  0% {
+		box-shadow: 0 0 0 0px rgba(255,255,255,.5);
+	}
+	
+	100% {
+		box-shadow: 0 0 0 60px rgba(255,255,255,0);
+	}
+
+  
+}
+
+.video-player .plyr--video input[type=range] {
+	color: #978668;
+}
+
+.video-player .plyr--video input[type=range].plyr__tab-focus::-webkit-slider-runnable-track{
+    box-shadow: none;
+}
+
+.video-player .plyr--video input[type=range].plyr__tab-focus::-moz-range-track{
+    box-shadow: none;
+}
+
+.video-player .plyr--video input[type=range].plyr__tab-focus::-ms-track{
+    box-shadow: none;
+}
+
+.video-player .plyr--video input[type=range].plyr__tab-focus::-webkit-slider-thumb{
+    box-shadow:0 1px 1px rgba(0,0,0,.15),0 0 0 1px rgba(47,52,61,.2),0 0 0 3px rgba(255,255,255,.5)
+}
+
+.video-player .plyr--video input[type=range].plyr__tab-focus::-moz-range-thumb{
+    box-shadow:0 1px 1px rgba(0,0,0,.15),0 0 0 1px rgba(47,52,61,.2),0 0 0 3px rgba(255,255,255,.5)
+}
+
+.video-player .plyr--video input[type=range].plyr__tab-focus::-ms-thumb{
+    box-shadow:0 1px 1px rgba(0,0,0,.15),0 0 0 1px rgba(47,52,61,.2),0 0 0 3px rgba(255,255,255,.5)
+}
+

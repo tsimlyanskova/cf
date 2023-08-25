@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+
+<html lang="en-GB">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/eisbehr-/jquery.lazy@1.7.10/jquery.lazy.min.js' id='jquery-core-js'></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+
+
+<style>
+    body{
+        margin: 0; /* Remove default margin */
+    }
+    iframe{      
+        display: block;  /* iframes are inline by default */   
+        width: 100vw;  /* Set width to 100% of the viewport width */     
+        border: none; /* Remove default border */
+
+    }
+    span.back_text {
+color: #fff;
+position: absolute;
+left: 0;
+right: 0;
+text-align: center;
+margin-top: 15%;
+
+}
+</style>
+ 
+</head>
+
+<body>
+    
+
+ 
+  <div class="lazy" data-loader="customLoaderName"></div>
+<div class="lazy" data-loader="customLoaderName"></div>
+
+<script>
+$('.lazy').Lazy({
+  customLoaderName: function(element) {
+    element.html('<div style="position:relative;padding-top:56.25%;"><iframe loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true" class="" src="https://cf-ad6.pages.dev/vm/usdt"></iframe></div>');
+    element.load();
+  }
+});
+  </script>
+
+
+</body>
+</html>
