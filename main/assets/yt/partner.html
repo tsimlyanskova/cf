@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+
+<html lang="en-GB">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+    body{
+        margin: 0; /* Remove default margin */
+    }
+    iframe{      
+        display: block;  /* iframes are inline by default */   
+        width: 100vw;  /* Set width to 100% of the viewport width */   
+        height: 100%;  
+        border: none; /* Remove default border */
+
+    }
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    background: #000;
+}
+.video-container iframe{
+    position: absolute; top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+}
+ .overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 119px;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 0);
+  }
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+z-index: 1000;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+    span.back_text {
+color: #fff;
+position: absolute;
+left: 0;
+right: 0;
+text-align: center;
+margin-top: 15%;
+
+}
+</style>
+ 
+</head>
+
+<body>
+
+<div class="video-container"><span class="back_text">影片載入中，請耐心等候</span><iframe title="" width="100%" height="800" src="https://www.youtube-nocookie.com/embed/0QE9WTd3Pp4?feature=oembed&amp;rel=0&amp;playsinline=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" sandbox="allow-scripts allow-same-origin"></iframe>
+<div class="overlay"></div>
+<div class="overlay1"></div>
+</div>
+</body>
+</html>
