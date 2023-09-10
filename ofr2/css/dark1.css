@@ -1,0 +1,1665 @@
+html{
+    background:#000000;
+}
+body{
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+}
+div.main{
+    width:100%;
+    height:auto;
+    z-index:-999;
+}
+div.united{
+    width:100%;
+    background-image:url("../img/money_bg.jpg");
+    background-size:cover;
+    background-position:center top;
+    background-repeat:no-repeat;
+}
+div.header_out{
+    width:100%;
+    height:auto;
+}
+div.header_in{
+    width:70%;
+    height:auto;
+    position:relative;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    display:inline-block;
+    vertical-align:text-top;
+    padding-top:10px;
+}
+div.logo{
+    width:40%;
+    height:80px;
+    display:inline-block;
+    vertical-align:text-top;
+    background-image:url("../img/logo.png");
+    background-position:center left;
+    background-repeat:no-repeat;
+}
+div.header_txt{
+    width:59%;
+    display:inline-block;
+    vertical-align:text-top;
+}
+p.heading{
+    font-family:'Roboto',sans-serif;
+    font-size:24px;
+    font-weight:900;
+    font-style:italic;
+    text-align:right;
+    color:#ffffff;
+    margin-top:15px;
+    margin-bottom:0px;
+    line-height:31px;
+}
+p.heading_big{
+    font-family:'Roboto',sans-serif;
+    font-size:30px;
+    font-weight:900;
+    font-style:italic;
+    text-align:right;
+    color:#ffffff;
+    margin-top:15px;
+    margin-bottom:0px;
+    line-height:36px;
+}
+p{
+    font-size:20px;
+    font-family:'Roboto',sans-serif;
+    font-weight:500;
+    color:#ffffff;
+    text-align:left;
+    padding-right:70px;
+    padding-left:70px;
+    line-height:31px;
+}
+div.second_out{
+    width:100%;
+    height:auto;
+    margin-bottom:0px;
+}
+div.second_out_step_two{
+    width:100%;
+    height:auto;
+    margin-bottom:30px;
+}
+div.second_in{
+    width:70%;
+    height:800px;
+    position:relative;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    display:inline-block;
+    vertical-align:text-top;
+    margin-top:20px;
+}
+div.second_in_step_two{
+    width:70%;
+    height:auto;
+    position:relative;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    display:inline-block;
+    vertical-align:text-top;
+    margin-top:20px;
+    padding-bottom:20px;
+}
+div.second_left{
+    width:15%;
+    height:auto;
+    display:inline-block;
+    vertical-align:text-top;
+}
+div.second_left_two{
+    width:15%;
+    height:auto;
+    display:inline-block;
+    vertical-align:text-top;
+}
+
+div.video{
+    width:68%;
+    height:auto;
+    display:inline-block;
+    vertical-align:text-top;
+
+}
+div.second_right{
+    width:15%;
+    height:auto;
+    display:inline-block;
+    vertical-align:text-top;
+}
+div.second_right_two{
+    width:15%;
+    height:1050px;
+    display:inline-block;
+    vertical-align:text-top;
+    background-image:url("../img/red_arrow.png");
+    background-position:center bottom;
+    background-repeat:no-repeat;
+}
+#ytv{
+    position:relative;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    border:15px solid #fff;
+    box-shadow:2px 2px 2px 2px #888888;
+    border-radius:6px;
+    margin-bottom:10px;
+    background-color:#f0f0f0;
+}
+h1{
+    font-size:24px;
+    font-family:'Roboto',sans-serif;
+    font-weight:900;
+    font-style: italic;
+    color:#ffffff;
+    text-align:center;
+    padding-right:70px;
+    padding-left:70px;
+    line-height:31px;
+}
+input[type=text]{
+    display:inline-block;
+    vertical-align:text-top;
+    border-radius:6px;
+    border:1px solid #026093;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size:16px;
+}
+input[type=email]{
+    display:inline-block;
+    vertical-align:text-top;
+    border-radius:6px;
+    border:1px solid #026093;
+    font-size:16px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+div.form-wrapper-optin#form .the-form{
+    width:70%;
+    display:inline-block;
+    vertical-align:text-top;
+    position:relative;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    margin-top:20px;
+    border:none;
+    margin:0;
+    padding:0;
+    margin-top:20px;
+}
+div.form-wrapper-optin#form .the-form .field-fullname{
+    display:inline-block;
+    vertical-align:text-top;
+    width:49.9%;
+}
+div.form-wrapper-optin#form .the-form .field-fullname input[type=text]{
+    width:91%;
+    float:left;
+}
+div.form-wrapper-optin#form .the-form .field-email{
+    display:inline-block;
+    vertical-align:text-top;
+    width:49.9%;
+}
+div.form-wrapper-optin#form .the-form .field-email input[type=email]{
+    width:91%;
+    float:right;
+}
+div.form-wrapper-optin#form .the-form .field-submit{
+    width:100%;
+}
+div.form-wrapper-optin#form .the-form .field-submit input[type=submit]{
+    width:100%;
+    height:90px;
+    background-color:#ecbe23!important;
+    background-image:-webkit-linear-gradient(to bottom,#fee144,#dba007)!important;
+    background-image:-o-linear-gradient(to bottom,#fee144,#dba007)!important;
+    background-image:linear-gradient(to bottom,#fee144,#dba007)!important;
+    border-bottom:6px solid #b88302!important;
+    color:#36434f!important;
+    font-family:'Roboto Condensed',sans-serif!important;
+    font-weight:bold!important;
+    font-size:34px!important;
+    text-decoration:none!important;
+    text-shadow:1px 1px 3px rgba(255,255,255,0.4)!important;
+    margin-top:20px;
+    cursor:pointer;
+    border:none;
+    display:inline-block;
+    vertical-align:text-top;
+    position:relative;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    border-radius:6px;
+}
+div.form-wrapper-optin#form .the-form .field-submit input[type=submit]:hover{
+    background-color:#ecbe23!important;
+    background-image:-webkit-linear-gradient(to bottom,#dba007,#fee144)!important;
+    background-image:-o-linear-gradient(to bottom,#dba007,#fee144)!important;
+    background-image:linear-gradient(to bottom,#dba007,#fee144)!important;
+}
+div.form-wrapper-optin#form .the-form .field-submit input[type=submit]:focus{
+    outline:none;
+}
+div#ouibounce-modal{
+    z-index:999;
+}
+div#ouibounce-modal .modal{
+    width:600px;
+    height:600px;
+    border: 5px solid #FFF;
+    background-color:transparent;
+}
+div.modal-title{
+    background:#2e6594 ;
+}
+#ouibounce-modal h3{
+    font-family:'Roboto',sans-serif!important;
+    font-weight:900!important;
+    font-style:italic!important;
+    color:#ffdc1d!important;
+    font-size:60px!important;
+    margin-top:0px!important;
+    margin-bottom:0px!important;
+}
+p.leave{
+    font-family:'Roboto',sans-serif!important;
+    font-weight:300!important;
+    font-style:italic!important;
+    color:#fff!important;
+    font-size:25px!important;
+    margin-top:0px!important;
+    margin-bottom:0px!important;
+}
+img.modalimg{
+    padding-right:10px;
+    padding-left:10px;
+    border: 3px solid #F00;
+}
+p.miss{
+    background:#21231f 50% 0 no-repeat!important;
+    color:#fff!important;
+    margin-top:0px!important;
+    margin-bottom:0px!important;
+    padding:30px!important;
+    font-size:20px!important;
+    line-height:26px!important;
+    font-weight:400!important;
+    font-family:'Roboto',sans-serif!important;
+    text-align:center!important;
+}
+div#ouibounce-modal .modal-body{
+    background:#000;
+    border-radius:0 0 16px 16px!important;
+}
+p.miss_no_bg{
+    color:#fff!important;
+    margin-top:10px!important;
+    margin-bottom:0px!important;
+    font-size:20px!important;
+    line-height:24px!important;
+    font-weight:400!important;
+    font-family:'Roboto',sans-serif!important;
+    text-align:center!important;
+}
+input#mail_pop{
+    margin-top:15px;
+}
+#ouibounce-modal .modal-footer{
+    position:relative!important;
+}
+#ouibounce-modal form{
+    margin-top:20px!important;
+}
+#ouibounce-modal .modal-footer p{
+    color:#fff!important;
+    padding-top:20px!important;
+}
+div.exit_cta{
+    width:100%;
+}
+#ouibounce-modal form input[type=submit]{
+    width:100%;
+    height:90px;
+    background-color:#ecbe23!important;
+    background-image:-webkit-linear-gradient(to bottom,#fee144,#dba007)!important;
+    background-image:-o-linear-gradient(to bottom,#fee144,#dba007)!important;
+    background-image:linear-gradient(to bottom,#fee144,#dba007)!important;
+    border-bottom:6px solid #b88302!important;
+    margin-top:15px!important;
+    margin-bottom:15px;
+    color:#36434f!important;
+    font-family:'Roboto Condensed',sans-serif!important;
+    font-weight:bold!important;
+    font-size:30px!important;
+    text-decoration:none!important;
+    text-shadow:1px 1px 3px rgba(255,255,255,0.4)!important;
+}
+#ouibounce-modal form input[type=submit]:hover{
+    background-image:-webkit-linear-gradient(to bottom,#dba007,#fee144)!important;
+    background-image:-o-linear-gradient(to bottom,#dba007,#fee144)!important;
+    background-image:linear-gradient(to bottom,#dba007,#fee144)!important;
+}
+input[type=submit]#exitsubmit::before{
+    content:''!important;
+    display:block;
+    background:url(../img/button-go-arrows.png) 0 0 no-repeat!important;
+    width:31px!important;
+    height:50px!important;
+    position:absolute!important;
+    left:-1px!important;
+    top:50%!important;
+    margin-top:-25px!important;
+}
+p.close{
+    font-family:'Roboto',sans-serif!important;
+    font-weight:400!important;
+    color:#fff!important;
+    font-size:16px!important;
+    margin-top:10px!important;
+    margin-bottom:0px!important;
+    text-align:center!important;
+    text-decoration:underline!important;
+    cursor:pointer!important;
+}
+#ouibounce-modal .modal-title{
+    border-radius:16px 16px 0 0!important;
+}
+div#ouibounce-modal .modal-body .form-wrapper-optin .the-form .field-fullname{
+    width:100%;
+    margin-bottom:10px;
+}
+div#ouibounce-modal .modal-body .form-wrapper-optin .the-form .field-fullname input[type=text]{
+    width:93%;
+}
+div#ouibounce-modal .modal-body .form-wrapper-optin .the-form .field-email{
+    width:100%;
+}
+div#ouibounce-modal .modal-body .form-wrapper-optin .the-form .field-email input[type=email]{
+    width:93%;
+}
+div#ouibounce-modal .modal-body .form-wrapper-optin .the-form .field-submit{
+    width:100%;
+}
+div#ouibounce-modal .modal-body .form-wrapper-optin .the-form span.error-message{
+    color:#fff;
+}
+
+img.trust{
+
+    position:relative;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    margin-top:30px;
+}
+img.trust1{
+    width:85%; max-width: 350px;
+    position:relative;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    margin-top:30px;
+}
+h1.new{
+
+    font-size:35px;
+    font-family:'Roboto',sans-serif;
+    font-weight:900;
+    font-style: italic;
+    color:#ffffff;
+    text-align:center;
+    padding-right:70px;
+    padding-left:70px;
+    line-height:1.1em;   
+}
+
+#ouibounce-modal{font-family:'Open Sans',sans-serif;display:none;position:fixed;top:0;left:0;width:100%;height:100%}#ouibounce-modal .underlay{width:100%;height:100%;position:absolute;top:0;left:0;background-color:rgba(0,0,0,.5);cursor:pointer;-webkit-animation:fadein .5s;animation:fadein .5s}#ouibounce-modal .modal{width:600px;height:400px;background-color:#f0f1f2;z-index:1;position:absolute;margin:auto;top:0;right:0;bottom:0;left:0;border-radius:4px;-webkit-animation:popin .3s;animation:popin .3s}#ouibounce-modal .modal-title{font-size:18px;background-color:#252525;color:#fff;padding:10px;margin:0;border-radius:4px 4px 0 0;text-align:center}#ouibounce-modal h3{color:#fff;font-size:1em;margin:.2em;text-transform:uppercase;font-weight:500}#ouibounce-modal .modal-body{padding:20px 35px;font-size:.9em}#ouibounce-modal p{color:#344a5f}#ouibounce-modal form{text-align:center;margin-top:35px}#ouibounce-modal form input[type=text]{/*padding:12px;font-size:1.2em;width:300px;border-radius:4px;border:1px solid #ccc;-webkit-font-smoothing:antialiased*/}#ouibounce-modal form input[type=submit]{text-transform:uppercase;font-weight:700;padding:12px;font-size:1.1em;border-radius:4px;color:#fff;background-color:#4ab471;border:none;cursor:pointer;-webkit-font-smoothing:antialiased}#ouibounce-modal form p{text-align:left;margin-left:35px;opacity:.8;margin-top:1px;padding-top:1px;font-size:.9em}#ouibounce-modal .modal-footer{position:absolute;bottom:20px;text-align:center;width:100%}#ouibounce-modal .modal-footer p{text-transform:capitalize;cursor:pointer;display:inline;border-bottom:1px solid #344a5f}@-webkit-keyframes fadein{0%{opacity:0}100%{opacity:1}}@-ms-keyframes fadein{0%{opacity:0}100%{opacity:1}}@keyframes fadein{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes popin{0%{-webkit-transform:scale(0);transform:scale(0);opacity:0}85%{-webkit-transform:scale(1.05);transform:scale(1.05);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-ms-keyframes popin{0%{-ms-transform:scale(0);transform:scale(0);opacity:0}85%{-ms-transform:scale(1.05);transform:scale(1.05);opacity:1}100%{-ms-transform:scale(1);transform:scale(1);opacity:1}}@keyframes popin{0%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);opacity:0}85%{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);opacity:1}100%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);opacity:1}}
+
+
+
+
+
+@media only screen and (max-width: 3000px) {
+    div#regform1 .loader{
+        top:0px;
+        height:350px;
+        width:850px;
+    }
+    div#regform2 .loader{
+        top:0px;
+        height:350px;
+        width:850px;
+    }
+}
+@media only screen and (max-width: 1750px) {
+    div.sticky_form>div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:69.7%!important;
+    }
+    div#regform1 .loader{
+        top:0px;
+        height:350px;
+        width:850px;
+    }
+    div#regform2 .loader{
+        top:0px;
+        height:350px;
+        width:850px;
+    }
+}
+@media only screen and (max-width: 1700px) {
+    div.header_in{
+        width:80%;
+    }
+    div.second_in{
+        width:80%;
+    }
+    div.second_in_step_two{
+        width:80%;
+    }
+    h1{
+        padding-left:20px;
+        padding-right:20px;
+    }
+    p{
+        padding-left:20px;
+        padding-right:20px;
+    }
+    div.info{
+        width:90%;
+    }
+    div.full{
+        width:90%;
+    }
+    div.info_two{
+        width:90%;
+    }
+    div.cta input{
+        width:90%;
+    }
+    div.logo{
+        width:30%;
+    }
+    div.header_txt{
+        width:69%;
+    }
+    div.sticky_in{
+        width:80%;
+    }
+    div.register_in{
+        width:80%;
+    }
+    div.digits_in{
+        width:80%;
+    }
+    div.faq_in{
+        width:80%;
+    }
+    div.congrats_in{
+        width:80%;
+    }
+    div.users_in{
+        width:80%;
+    }
+    div.question_in{
+        width:80%;
+    }
+    div.disclaimer_in{
+        width:80%;
+    }
+    div.sticky_form>div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:71%!important;
+    }
+    div#regform1 .loader{
+        top:0px;
+        height:350px;
+        width:850px;
+    }
+    div#regform2 .loader{
+        top:0px;
+        height:350px;
+        width:850px;
+    }
+}
+@media only screen and (max-width: 1550px) {
+    input[name="phone_sticky"]{
+        width:67.7%!important;
+    }
+}
+@media only screen and (max-width: 1530px) {
+    div.sticky_in{
+        width:96%;
+    }
+    div.second_left{
+        width:10%;
+    }
+    div.second_left_two{
+        width:10%;
+    }
+    div.video{
+        width:79%;
+    }
+    div.second_right_two{
+        width:10%;
+        background-size:80%;
+    }
+    div.second_right{
+        width:10%;
+    }
+    div.second_right>img{
+        width:100%;
+    }
+    div.testi_one_in{
+        width:100%;
+    }
+    div.testi_two_in{
+        width:100%;
+    }
+    div.testi_three_in{
+        width:100%;
+    }
+    div.third_form_in{
+        width:800px;
+    }
+    fieldset#form_two{
+        width:800px;
+    }
+    .form-wrapper{
+        width:800px;
+    }
+    div#regform1{
+        width:800px;
+    }
+    div#regform2{
+        width:800px;
+    }
+    div#regform1 .loader{
+        top:0px;
+        height:350px;
+        width:800px;
+    }
+    div#regform2 .loader{
+        top:0px;
+        height:350px;
+        width:800px;
+    }
+    input[name="phone_sticky"]{
+        width:68%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:72.6%;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    div.header_in{
+        width:96%;
+    }
+    div.second_in{
+        width:96%;
+    }
+    div.second_in_step_two{
+        width:96%;
+    }
+    div.register_in{
+        width:96%;
+    }
+    div.digits_in{
+        width:96%;
+    }
+    div.faq_in{
+        width:96%;
+    }
+    div.congrats_in{
+        width:96%;
+    }
+    div.users_in{
+        width:96%;
+    }
+    div.question_in{
+        width:96%;
+    }
+    div.disclaimer_in{
+        width:96%;
+    }
+    input[name="phone_sticky"]{
+        width:67%!important;
+    }
+    fieldset.sticky>div:nth-child(3)>input[name="sticky_submit"]{
+        width:98%;
+    }
+    fieldset.sticky>div:nth-child(2)>input[name="phone_sticky"]{
+        width:67%;
+    }
+    div.sticky_form>div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:70%!important;
+    }
+}
+@media only screen and (max-width: 1250px) {
+    div.sticky_form>div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:69%!important;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    div#sticky_out{
+        height:auto;
+    }
+    div.sticky_in{
+        height:auto;
+    }
+    div.sticky_text{
+        width:100%;
+    }
+    fieldset.sticky{
+        width:100%;
+        position:relative;
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        transform:translateX(-50%);
+    }
+    input[name="phone_sticky"]{
+        width:65.6%!important;
+    }
+    input[name="sticky_submit"]{
+        width:100%;
+    }
+    input[name="lastname_sticky"]{
+        width:93%;
+    }
+    p.sticky_text{
+        margin-top:10px;
+    }
+    input#stickysubmit{
+        margin-top:16px;
+    }
+    div.sticky_form{
+        height:auto;
+        padding-bottom:10px;
+        width:100%;
+    }
+    p.digits{
+        padding-left:20px;
+    }
+    div.third_form_in{
+        width:750px;
+    }
+    fieldset#form_two{
+        width:750px;
+    }
+    .form-wrapper{
+        width:750px;
+    }
+    div#regform1{
+        width:750px;
+    }
+    div#regform2{
+        width:750px;
+    }
+    div#regform1 .loader{
+        top:0px;
+        height:370px;
+        width:750px;
+    }
+    div#regform2 .loader{
+        top:0px;
+        height:370px;
+        width:750px;
+    }
+    input[name="firstname_two"]{
+        width:46.8%;
+    }
+    input[name="lastname_two"]{
+        width:46.8%;
+    }
+    input[name="code_two"]{
+        width:19.6%;
+    }
+    div.sticky_form>div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:68%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:72.2%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:first-child>input[name="firstName"]{
+        width:94.2%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(2)>input[name="lastName"]{
+        width:94.2%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:first-child>input[name="lastName"]{
+        width:93%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(3)>input[name="email"]{
+        width:97%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(4)>input[name="password"]{
+        width:97%!important;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-phone{
+        width:21.5%;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-submit{
+        margin-left:13px;
+    }
+    div.form-wrapper-signup .the-form .field-firstname input[type=text]{
+        width:92.4%;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-password input[type=password]{
+        width:92%;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-phonecode input[type=text]{
+        margin-left:2px;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-submit{
+        width:33%!important;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-email input[type=email]{
+        width:94%;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-phone input[type=text]{
+        width:92.5%;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-lastname{
+        margin-left:4px;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-firstname input[type="text"]{
+        width:92.5%;
+    }
+}
+@media only screen and (max-width: 1070px) {
+    div.second_right>img{
+        width:98%;
+    }
+    div.logo{
+        background-size:100%;
+    }
+    #ytv{
+        width:600px;
+        height:383px;
+    }
+    p.heading{
+        font-size:20px;
+        line-height:26px;
+    }
+    p.heading_big{
+        font-size:25px;
+        line-height:31px;
+    }
+    div.info{
+        width:100%;
+    }
+    div.full{
+        width:100%;
+    }
+    div.info_two{
+        width:100%;
+    }
+    div.cta input{
+        width:100%;
+    }
+    div.second_left{
+        display:none;
+    }
+    div.second_right{
+        display:none;
+    }
+    div.video{
+        width:96%;
+        position:relative;
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        transform:translateX(-50%);
+    }
+    div.second_right_two{
+        display:none;
+    }
+    div.second_left_two{
+        display:none;
+    }
+    img.digits{
+        width:80%;
+    }
+    div.testi_img{
+        width:40%;
+    }
+    p.profit{
+        padding-right:15px;
+    }
+    p.name_big{
+        padding-top:10px;
+    }
+    div.third_form_in{
+        width:700px;
+    }
+    fieldset#form_two{
+        width:700px;
+    }
+    .form-wrapper{
+        width:700px;
+    }
+    div#regform1{
+        width:700px;
+    }
+    div#regform2{
+        width:700px;
+    }
+    div#regform1 .loader{
+        top:0px;
+        height:350px;
+        width:700px;
+    }
+    div#regform2 .loader{
+        top:0px;
+        height:350px;
+        width:700px;
+    }
+    input#firstname_two{
+        width:46.5%;
+    }
+    input#lastname_two{
+        width:46.5%;
+    }
+    input#fullmail{
+        width:97%;
+    }
+    input#fullpass{
+        width:97%
+    }
+    input#phone{
+        width:73%;
+    }
+    div.faq_out{
+        padding-bottom:20px;
+    }
+    div.testi_txt_top{
+        width:100%;
+    }
+    input[name="code_two"]{
+        width:19%;
+    }
+    input[name="email_two"]{
+        width:97%;
+    }
+    input[name="pass_two"]{
+        width:97%;
+    }
+    input[name="lastname_two"]{
+        width:46.5%;
+    }
+    input[name="phone_sticky"]{
+        width:64%!important;
+    }
+    input[name="email_sticky"]{
+        width:92%!important;
+    }
+    div.sticky_form>div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:67%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:71.7%!important;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-email input[type=email]{
+        width:96.7%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-password input[type=password]{
+        width:96.7%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-phone input[type=text]{
+        width:95.7%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-email input[type=email]{
+        width:96.7%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-password input[type=password]{
+        width:96.7%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-phone input[type=text]{
+        width:95.7%;
+    }
+}
+@media only screen and (max-width: 1005px) {
+    div.sticky_form>div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:66.5%!important;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-firstname input[type="text"]{
+        width:92%;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-lastname{
+        margin-left:6px;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-phone{
+        width:21%;
+        margin-left:8px;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-submit{
+        margin-left:15px;
+    }
+}
+@media only screen and (max-width: 977px) {
+    input[name="phone_sticky"]{
+        width:63%!important;
+    }
+    div.sticky_form>div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:65%!important;
+    }
+    div.sticky_form>div.form-wrapper>div.loader.active{
+        height:180px!important;
+    }
+    div.sticky_form .form-wrapper-signup .the-form .field-email input[type="email"]{
+        width:93%;
+    }
+}
+@media only screen and (max-width: 920px) {
+    div#sticky_out{
+        display:none!important;
+    }
+    div.united{
+        background-size:cover;
+        background-position:center top;
+        background-repeat:no-repeat;
+    }
+    div.united_two{
+        background-size:cover;
+        background-position:center bottom;
+        background-repeat:no-repeat;
+    }
+    fieldset.register{
+        width:80%;
+    }
+    div.money_out{
+        background-size:cover;
+        background-position:center center;
+    }
+    div.form-wrapper-optin#form .the-form{
+        width:80%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    div.third_form_in{
+        width:500px;
+    }
+    fieldset#form_two{
+        width:500px;
+    }
+    .form-wrapper{
+        width:500px;
+    }
+    div#regform1{
+        width:500px;
+    }
+    div#regform2{
+        width:500px;
+    }
+    div#regform1 .loader{
+        top:0px;
+        height:350px;
+        width:500px;
+    }
+    div#regform2 .loader{
+        top:0px;
+        height:350px;
+        width:500px;
+    }
+    input[name="firstname_two"]{
+        width:43.7%;
+    }
+    input[name="lasttname_two"]{
+        width:43.7%;
+    }
+    input[name="email_two"]{
+        width:95.7%;
+    }
+    input[name="pass_two"]{
+        width:95.7%;
+    }
+    input[name="code_two"]{
+        width:16%;
+    }
+    input[name="phone"]{
+        width:70%;
+    }
+    div.testi_one{
+        width:48%;
+    }
+    div.testi_two{
+        width:48%;
+    }
+    div.testi_three{
+        display:none;
+    }
+    fieldset.register{
+        width:90%;
+    }
+    div.form-wrapper-optin#form .the-form{
+        width:90%;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:first-child{
+        width:100%;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(2){
+        width:100%;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:first-child>input[name="firstName"]{
+        width:95.5%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(2)>input[name="lastName"]{
+        width:95.5%!important;
+        margin-top:10px;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(3)>input[name="email"]{
+        width:95.5%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(4)>input[name="password"]{
+        width:95.5%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="code"]{
+        width:20%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:69.4%!important;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-firstname input[type=text]{
+        width:90%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-lastname input[type=text]{
+        width:90%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-email input[type=email]{
+        width:95.2%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-password input[type=password]{
+        width:95.2%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-phone input[type=text]{
+        width:93.9%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-phonecode{
+        width:18.8%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-firstname input[type=text]{
+        width:90%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-lastname input[type=text]{
+        width:90%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-email input[type=email]{
+        width:95%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-password input[type=password]{
+        width:95%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-phone input[type=text]{
+        width:93.7%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-phonecode{
+        width:18.8%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    div.logo{
+        width:100%;
+        background-size:30%;
+        background-position:center;
+        height:50px;
+    }
+    div.header_txt{
+        width:96%;
+        position:relative;
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        transform:translateX(-50%);
+    }
+    p.heading{
+        text-align:center;
+    }
+    p.heading_big{
+        text-align:center;
+    }
+    input[name="name_two"]{
+        width:97%;
+    }
+    input[name="email_two"]{
+        width:95.7%;
+    }
+    div.cta{
+        background-color:transparent;
+    }
+    div.cta input{
+        width:100%;
+        background-size:100%;
+        height:67px;
+        background-color:transparent;
+    }
+    img.digits{
+        width:100%;
+    }
+    #ytv{
+        width:500px;
+        height:280px;
+        border:10px solid #fff;
+    }
+    p.white_shadow{
+        font-size:25px;
+        line-height:30px;
+    }
+    p.white_shadow_small{
+        font-size:20px;
+        line-height:25px;
+    }
+    p.blue_shadow{
+        padding-top:30px;
+        font-size:30px;
+        line-height:35px;
+        text-shadow:1px 1px #888;
+    }
+    div.founder_img{
+        width:100%;
+    }
+    img.founder{
+        width:25%;
+    }
+    div.founder_txt{
+        width:100%;
+    }
+    p.black_shadow{
+        text-align:center;
+        padding-bottom:20px;
+        padding-top:30px;
+        text-shadow:1px 1px #888;
+        font-size:30px;
+        line-height:35px;
+    }
+    p.founder{
+        padding-left:20px;
+        padding-right:20px;
+    }
+    img.sign{
+        margin-left:20px;
+    }
+    div.congrats_in{
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    div.dig_one{
+        width:100%;
+    }
+    div.dig_two{
+        display:none;
+    }
+    div.dig_three{
+        width:100%;
+    }
+    div.dig_four{
+        display:none;
+    }
+    div.dig_five{
+        width:100%;
+    }
+    p.digits{
+        padding-right:20px;
+        padding-bottom:0px;
+    }
+    div.dig_one{
+        margin-top:40px;
+    }
+    div.digits_out{
+        margin-top:50px;
+        margin-bottom:20px;
+    }
+    div.register_inner_one{
+        width:100%;
+        padding-bottom:20px;
+    }
+    div.register_inner_two{
+        width:100%;
+        padding-bottom:20px;
+    }
+    div.register_inner_three{
+        width:100%;
+    }
+    img.reg_icon{
+        width:20%;
+    }
+    p.blue_bigger{
+        font-size:35px;
+        line-height:40px;
+        text-shadow:1px 1px #888;
+    }
+    div.faq_out{
+        padding-bottom:0px;
+    }
+    div.question{
+        width:100%;
+    }
+    img.question{
+        float:none;
+        position:relative;
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        transform:translateX(-50%);
+    }
+    div.question_txt{
+        width:100%;
+    }
+    p.green{
+        text-align:center;
+    }
+    p.question_txt{
+        text-align:center;
+    }
+    .button-wrapper:first-child{
+        width:100%;
+    }
+    .button-wrapper:first-child>input{
+        width:95.5%;
+    }
+    .button-wrapper:nth-child(2){
+        width:100%;
+    }
+    .button-wrapper:nth-child(2)>input{
+        width:95.5%;
+        margin-top:10px;
+    }
+    fieldset#form_two{
+        width:450px;
+    }
+    .form-wrapper{
+        width:450px;
+    }
+    div#regform1{
+        width:450px;
+    }
+    div#regform2{
+        width:450px;
+    }
+    div#regform1 .loader{
+        top:0px;
+        height:350px;
+        width:450px;
+    }
+    div#regform2 .loader{
+        top:0px;
+        height:350px;
+        width:450px;
+    }
+    input[name="code_two"]{
+        width:15%;
+    }
+    input[name="pass_two"]{
+        width:95%;
+    }
+    input[name="email_two"]{
+        width:95%;
+    }
+    input[name="firstname_two"]{
+        width:43%;
+    }
+    input[name="lasttname_two"]{
+        width:43%;
+    }
+    div.united{
+        background-image:none;
+    }
+    div.united_two{
+        background-image:none;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:68.3%!important;
+    }
+    div.field-fullname{
+        display:inline-block;
+        vertical-align:text-top;
+        width:100%;
+    }
+    div.field-fullname>input[name=fullName]{
+        width:95.5%;
+        float:none;
+    }
+    div.field-email{
+        display:inline-block;
+        vertical-align:text-top;
+        width:100%;
+    }
+    div.field-email>input[name=email]{
+        width:95.5%;
+        float:none;
+    }
+    div.form-wrapper-optin#form .the-form .field-fullname{
+        width:100%;
+        margin-bottom:15px;
+    }
+    div.form-wrapper-optin#form .the-form .field-fullname input[type=text]{
+        width:96%;
+        float:none;
+    }
+    div.form-wrapper-optin#form .the-form .field-email{
+        width:100%;
+        float:none;
+    }
+    div.form-wrapper-optin#form .the-form .field-email input[type=email]{
+        width:96%;
+        float:none;
+    }
+}
+@media only screen and (max-width: 550px) {
+    div#form{
+        width:100%;
+    }
+    div.info{
+        display:block;
+        height:120px;
+        width:100%;
+    }
+    div.full{
+        display:block;
+        height:120px;
+        width:100%;
+    }
+    div.info_two{
+        display:block;
+        height:120px;
+        width:100%;
+    }
+    div.info>input[name="name"]{
+        width:90%;
+        position:relative;
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        transform:translateX(-50%);
+        float:none;
+    }
+    div.info>input[name="email_two"]{
+        width:90%;
+        position:relative;
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        transform:translateX(-50%);
+        float:none;
+        margin-top:15px;
+        background: red;
+    }
+    div.cta input{
+        margin-top:10px;
+    }
+    #ytv{
+        width:100%;
+        height:250px;
+    }
+    div.logo{
+        background-size:50%;
+        max-height:50px;
+    }
+    div.second_out{
+        margin-bottom:20px;
+    }
+    div.second_out_step_two{
+        margin-bottom:20px;
+    }
+    img.digits{
+        width:100%;
+    }
+    div.third_form_in{
+        width:350px;
+    }
+    fieldset#form_two{
+        width:350px;
+    }
+    .form-wrapper{
+        width:350px;
+    }
+    div#regform1{
+        width:350px;
+    }
+    div#regform2{
+        width:350px;
+    }
+    div#regform1 .loader{
+        top:0px;
+        height:350px;
+        width:350px;
+    }
+    div#regform2 .loader{
+        top:0px;
+        height:350px;
+        width:350px;
+    }
+    fieldset#form_two>div:nth-child(3){
+        width:100%;
+    }
+    input[name="firstname_two"]{
+        width:95%;
+        float:none;
+    }
+    input[name="lastname_two"]{
+        width:95%;
+        float:none;
+        margin-top:10px;
+    }
+    input[name="email_two"]{
+        width:95%;
+    }
+    input[name="pass_two"]{
+        width:95%;
+    }
+    div.testi_one{
+        width:100%;
+    }
+    div.testi_two{
+        width:100%;
+    }
+    div.testi_img{
+        width:100%;
+    }
+    img.testi{
+        position:relative;
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        transform:translateX(-50%);
+        float:none;
+    }
+    img.bottom{
+        position:relative;
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        transform:translateX(-50%);
+        float:none;
+        padding-left:0px;
+    }
+    div.img_bottom{
+        width:100%;
+    }
+    div.name{
+        width:50%;
+        position:relative;
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        transform:translateX(-50%);
+        float:none;
+    }
+    p.profit{
+        padding-left:15px;
+        text-align:center;
+    }
+    p.name_big{
+        text-align:center;
+    }
+    p.name_small{
+        text-align:center;
+    }
+    div.testi{
+        margin-top:30px;
+    }
+    fieldset#form_two{
+        width:450px;
+    }
+    div.money_out{
+        background-image:url("../img/money_bg_small_550px.png");
+        background-size:cover;
+        background-position:center center;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(2){
+        width:100%;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:first-child>input[name="firstName"]{
+        width:93%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(2)>input[name="lastName"]{
+        width:93%!important;
+        margin-top:10px;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(3)>input[name="email"]{
+        width:93%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(4)>input[name="password"]{
+        width:93%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="code"]{
+        width:20%!important;
+    }
+    div.form-wrapper>form.register-form>fieldset>div:nth-child(5)>input[name="phone"]{
+        width:64%!important;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-firstname input[type=text]{
+        width:86%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-lastname input[type=text]{
+        width:86%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-email input[type=email]{
+        width:93%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-password input[type=password]{
+        width:93%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-phone input[type=text]{
+        width:91%;
+    }
+    div#regform2 .form-wrapper-signup .the-form .field-phonecode{
+        width:17%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-firstname input[type=text]{
+        width:86%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-lastname input[type=text]{
+        width:86%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-email input[type=email]{
+        width:93%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-password input[type=password]{
+        width:93%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-phone input[type=text]{
+        width:91%;
+    }
+    div#regform1 .form-wrapper-signup .the-form .field-phonecode{
+        width:17%;
+    }
+    h1{
+        padding-left:20px;
+        padding-right:20px;
+        text-align: left;
+    }
+    h1.new{
+        padding-left:20px;
+        padding-right:20px;
+        text-align: center;
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #ytv{
+        width:100%;
+        height:185px;
+    }
+    img.digits{
+        display:none;
+    }
+    fieldset#form_two{
+        width:350px;
+    }
+    .form-wrapper{
+        width:350px;
+    }
+    div#regform1{
+        width:350px;
+    }
+    div#regform2{
+        width:350px;
+    }
+    div#regform1 .loader{
+        top:0px;
+        height:350px;
+        width:350px;
+    }
+    div#regform2 .loader{
+        top:0px;
+        height:350px;
+        width:350px;
+    }
+    div.form-wrapper-signup .the-form{
+        width:350px!important;
+    }
+    input[name="pass_two"]{
+        width:94%;
+    }
+    input[name="email_two"]{
+        width:94%;
+    }
+    input[name="firstname_two"]{
+        width:94%;
+    }
+    input[name="lastname_two"]{
+        width:94%;
+    }
+    input[name="phone_two"]{
+        width:71.2%;
+    }
+    .button-wrapper:first-child>input{
+        width:93%;
+    }
+    .button-wrapper:nth-child(2)>input{
+        width:93%;
+    }
+    div.form-wrapper-optin#form .the-form .field-fullname input[type=text]{
+        width:93%;
+    }
+    div.form-wrapper-optin#form .the-form .field-email input[type=email]{
+        width:93%;
+    }
+}
